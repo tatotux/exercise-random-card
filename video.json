@@ -9,10 +9,10 @@
 		{ "seconds": "8:55", "description": "Creating the HTML" },
 		{ "seconds": "10:00", "description": "Creating the CSS" },
 		{ "seconds": "17:00", "description": "Using : before and :after" },
-		{ "seconds": "21:12", "description": "Creating the Suit CSS Classes" },
-		{ "seconds": "23:20", "description": "Testing the suites with the inspector " },
+		{ "seconds": "21:12", "description": "Creating the trebol CSS Classes" },
+		{ "seconds": "23:20", "description": "Testing the treboles with the inspector " },
 		{ "seconds": "24:44", "description": "Coding the Javascript" },
-		{ "seconds": "26:49", "description": "Genereting a random number and suite" },
+		{ "seconds": "26:49", "description": "Genereting a random number and trebole" },
 		{ "seconds": "31:03", "description": "Final demonstration" }
  	]
 }

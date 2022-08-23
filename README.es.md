@@ -38,12 +38,12 @@ Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `gi
 
 - Recuerda que el primer evento en el ciclo de vida de un sitio web es [onLoad (su código comienza a ejecutarse allí)](https://www.w3schools.com/jsref/event_onload.asp), debe generar un número aleatorio entre 1 y 4 para elegir un palo y otro número aleatorio entre 0 y 12 para elegir un número de tarjeta.
 
-- Crea una clase general **.card** que aplique los estilos generales a cada carta, y una clase CSS adicional para cada palo/pinta: .spade, .club, .heart & .diamond.
+- Crea una clase general **.card** que aplique los estilos generales a cada carta, y una clase CSS adicional para cada palo/pinta: .espadas, .club, .corazon & .diamond.
 
 - Aplica la clase .card a toda la división, pero solo aplica una de las clases de la pinta/palo a la vez, dependiendo de la pinta/palo que desees aplicar. Por ejemplo, un 3 de corazones tendrá esta declaración HTML:
 
 ```html
-    <div class='card heart'></div>
+    <div class='card corazon'></div>
 ```
 
 - Copia y pega estos emojis dentro te tu codigo para los simbolos: ♦ ♥ ♠ ♣

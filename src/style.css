@@ -1,1 +1,80 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  width: 263px;
+  height: 396px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  position: relative;
+  padding-top: 10px;
+  font-size: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.numero {
+  text-align: center;
+  position: relative;
+}
+
+.espadas::before {
+  content: "\2660";
+  position: absolute;
+  margin-top: -137px;
+  margin-left: -88px;
+}
+.espadas::after {
+  content: "\2660";
+  position: absolute;
+  margin-top: 127px;
+  transform: rotate(180deg);
+}
+
+.trebol::before {
+  content: "\2663";
+  position: absolute;
+  margin-top: -137px;
+  margin-left: -88px;
+}
+.trebol::after {
+  content: "\2663";
+  position: absolute;
+  margin-top: 127px;
+  transform: rotate(180deg);
+}
+
+.corazon::before {
+  content: "\2665";
+  position: absolute;
+  margin-top: -137px;
+  margin-left: -88px;
+  color: red;
+}
+.corazon::after {
+  content: "\2665";
+  position: absolute;
+  margin-top: 127px;
+  color: red;
+  transform: rotate(180deg);
+}
+
+.diamante::before {
+  content: "\2666";
+  position: absolute;
+  margin-top: -137px;
+  margin-left: -88px;
+  color: red;
+}
+.diamante::after {
+  content: "\2666";
+  position: absolute;
+  margin-top: 127px;
+  color: red;
+  transform: rotate(180deg);
+}
